@@ -422,7 +422,7 @@ a {
   padding-bottom: 40px;
   min-height: 776px;
   color: #fff;
-  background-image: url("./img/hero-bg.jpg");
+  background-image: url("../img/hero-bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
