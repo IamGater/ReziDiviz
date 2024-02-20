@@ -95,7 +95,10 @@ a {
   border-radius: 0;
   background-color: #fff;
 }
-.input-reset::-webkit-search-decoration, .input-reset::-webkit-search-cancel-button, .input-reset::-webkit-search-results-button, .input-reset::-webkit-search-results-decoration {
+.input-reset::-webkit-search-decoration,
+.input-reset::-webkit-search-cancel-button,
+.input-reset::-webkit-search-results-button,
+.input-reset::-webkit-search-results-decoration {
   display: none;
 }
 
@@ -148,7 +151,7 @@ a {
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[12];
+  -ms-grid-columns: (1fr) [12];
   grid-template-columns: repeat(12, 1fr);
   -webkit-column-gap: 32px;
   -moz-column-gap: 32px;
@@ -156,7 +159,7 @@ a {
 }
 @media (max-width: 576px) {
   .grid {
-    -ms-grid-columns: (1fr)[4];
+    -ms-grid-columns: (1fr) [4];
     grid-template-columns: repeat(4, 1fr);
   }
 }
@@ -182,7 +185,8 @@ a {
   --burger-height: 20px;
   color: #fff;
 }
-.burger::before, .burger::after {
+.burger::before,
+.burger::after {
   content: "";
   position: absolute;
   left: 0;
@@ -192,7 +196,8 @@ a {
   -webkit-transition: top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, top 0.3s ease-in-out,
+    -webkit-transform 0.3s ease-in-out;
 }
 .burger::before {
   top: 0;
@@ -223,7 +228,8 @@ a {
   -webkit-transition: top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, top 0.3s ease-in-out,
+    -webkit-transform 0.3s ease-in-out;
 }
 .burger--active::after {
   top: 50%;
@@ -233,7 +239,8 @@ a {
   -webkit-transition: top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, top 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, top 0.3s ease-in-out,
+    -webkit-transform 0.3s ease-in-out;
 }
 .burger--active .burger__line {
   -webkit-transform: scale(0);
@@ -370,10 +377,12 @@ a {
     -ms-transform: translateX(-100%);
     transform: translateX(-100%);
     visibility: hidden;
-    -webkit-transition: visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -webkit-transition: visibility 0.3s ease-in-out,
+      -webkit-transform 0.3s ease-in-out;
     transition: visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
-    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out,
+      -webkit-transform 0.3s ease-in-out;
   }
 }
 @media (max-width: 768px) {
@@ -413,7 +422,7 @@ a {
   padding-bottom: 40px;
   min-height: 776px;
   color: #fff;
-  background-image: url("../img/hero-bg.jpg");
+  background-image: url("./img/hero-bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -792,22 +801,22 @@ a {
   z-index: 99;
 }
 .approach__link-ted {
-  background-image: url(../../img/approach__svg-1.svg);
+  background-image: url(../img/approach__svg-1.svg);
 }
 .approach__link-nyt {
-  background-image: url(../../img/approach__svg-2.svg);
+  background-image: url(../img/approach__svg-2.svg);
 }
 .approach__link-scoop {
-  background-image: url(../../img/approach__svg-3.svg);
+  background-image: url(../img/approach__svg-3.svg);
 }
 .approach__link-press {
-  background-image: url(../../img/approach__svg-4.svg);
+  background-image: url(../img/approach__svg-4.svg);
 }
 .approach__link-time {
-  background-image: url(../../img/approach__svg-5.svg);
+  background-image: url(../img/approach__svg-5.svg);
 }
 .approach__link-freethink {
-  background-image: url(../../img/approach__svg-6.svg);
+  background-image: url(../img/approach__svg-6.svg);
 }
 .approach__link:focus {
   outline: none;
@@ -858,7 +867,7 @@ a {
   flex-shrink: 0;
   width: 287px;
   height: 100%;
-  background-image: url("../../img/info-1.png");
+  background-image: url("../img/info-1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -884,7 +893,7 @@ a {
   flex-shrink: 0;
   width: 287px;
   height: 100%;
-  background-image: url("../../img/info-2.png");
+  background-image: url("../img/info-2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1104,7 +1113,7 @@ a {
   display: -ms-grid;
   display: grid;
   row-gap: 36px;
-  -ms-grid-columns: (1fr)[6];
+  -ms-grid-columns: (1fr) [6];
   grid-template-columns: repeat(6, 1fr);
   -webkit-column-gap: 32px;
   -moz-column-gap: 32px;
@@ -1247,22 +1256,22 @@ a {
   z-index: 99;
 }
 .press-card__author-ted {
-  background-image: url(../../img/approach__svg-1.svg);
+  background-image: url(../img/approach__svg-1.svg);
 }
 .press-card__author-nyt {
-  background-image: url(../../img/approach__svg-2.svg);
+  background-image: url(../img/approach__svg-2.svg);
 }
 .press-card__author-scoop {
-  background-image: url(../../img/approach__svg-3.svg);
+  background-image: url(../img/approach__svg-3.svg);
 }
 .press-card__author-press {
-  background-image: url(../../img/approach__svg-4.svg);
+  background-image: url(../img/approach__svg-4.svg);
 }
 .press-card__author-time {
-  background-image: url(../../img/approach__svg-5.svg);
+  background-image: url(../img/approach__svg-5.svg);
 }
 .press-card__author-freethink {
-  background-image: url(../../img/approach__svg-6.svg);
+  background-image: url(../img/approach__svg-6.svg);
 }
 .press-card__link {
   color: inherit;
